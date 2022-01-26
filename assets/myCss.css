@@ -1,0 +1,19 @@
+@font-face
+{font-family: 'Arial';
+src: url(https://fonts.gstatic.com/s/assistant/v8/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnIGSV35Gu.woff2) format('woff2');}
+@font-face
+{font-family: 'Assistant';
+src: url(https://fonts.gstatic.com/s/assistant/v8/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnIGSV35Gu.woff2) format('woff2');}
+@font-face
+{font-family: 'Assistant Bold';
+src: url(https://fonts.gstatic.com/s/assistant/v8/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnIGSV35Gu.woff2) format('woff2');}
+
+select {
+    border-radius: 27px;
+    color: #232859;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 4px solid #A791C7;
+    direction: rtl;
+    text-align: center;
+}
