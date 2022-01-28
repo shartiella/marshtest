@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>מרשמלומד</title>
+    <meta name="description" content="משחק לימודי - נקטר שביט, אלה שרתיאל ורוני אבן עזרא" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+
+    <link rel="icon" href="images/favicon.png" />
+
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/indexCss.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/JavaScript.js" type="text/javascript"></script>
+
+
+
+    <style>
+       
+    </style>
+
+</head>
+<body>
+    <div id="container">
+        <header>
+            <!--תפריט עליון-->
+            <nav>
+                <span id="right">
+                    <img id="logo" src="images/firelogo.png" />
+                    <h1>מרשמלומד</h1>
+                </span>
+                <span id="left">
+                    <a id="howToPlay" href="index.html">איך משחקים?</a>
+                    <a id="about" onclick="openAbout()">אודות</a>
+                </span>
+            </nav>
+        </header>
+        <div id="aboutPopUp" class="aboutPopUpClosed">
+            <div class="aboutPopUpBox">
+                <img id="aboutPopUpX" class="aboutPopUpXclosed" onclick="closeAbout()" src="images/aboutX.png">
+                <h2 class="aboutH2">אודות</h2>
+                <img src="images/marshlogo.png" />
+                <div id="aboutPopUpContent">
+                    <h3>אפיון ופיתוח</h3>
+                    <p>אלה שרתיאל, נקטר שביט, ורוני אבן עזרא</p>
+                    <h3>אופיין ופותח במסגרת פרויקט בקורסים</h3>
+                    <p>סביבות לימוד אינטראקטיביות 1 + תכנות אינטראקטיבי 1</p>
+                    <h3>תשפ"ב - הפקולטה לטכנולוגיות למידה</h3>
+                    <a id="faculta" href="https://www.hit.ac.il/telem/overview">
+                        <img src="images/HITlogo.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--תוכן העמוד-->
+        <main id="game">
+            <iframe src="marshmellowmed-ordered.html" frameBorder="0" allowfullscreen="">Browser not compatible</iframe>
+        </main>
+    </div>
+</body>
+</html>
